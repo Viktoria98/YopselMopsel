@@ -1,0 +1,116 @@
+.App .searchResult {
+  width: 800px;
+  background-color: #ffffff;
+  margin-left: 30px;
+}
+
+.App .searchResult div{
+    border-bottom: 1px solid #cac9c9;
+}
+
+.App .searchResult span {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.App .resultImg {
+  padding: 9px 0;
+  width: 50px;
+}
+
+
+.App .searchResult .name a{
+  display: inline-block;
+  margin-left: 20px;
+  color: #3e77aa;
+  font-family: "Arial MT";
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  letter-spacing: 0.15px;
+}
+
+
+.App .searchResult .price {
+  margin-left: 50px;
+  color: #000000;
+  font-family: "Arial MT";
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+
+.App .searchResult .inStockImg {
+  margin-left: 33px;
+}
+
+.App .searchResult .inStock {
+  color: #299126;
+  font-family: "Arial MT";
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  margin-left: 10px;
+}
+
+.App .searchResult .notInStock {
+  color: grey;
+}
+
+/*Category*/
+
+.App .searchResult .catName span  {
+  margin: 10px 0;
+}
+
+.App .searchResult .catName a {
+  color: #101010;
+  font-family: "Arial MT";
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+  letter-spacing: 0.15px;
+}
+
+.App .searchResult .catArrow img{
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.App .searchResult div.allResults {
+    border: none;
+}
+
+.App .searchResult div.allResults span {
+   margin-top: 15px;
+}
+
+.App .searchResult div.allResults a{
+  color: #3e77aa;
+  font-family: "Arial MT";
+  font-size: 15px;
+  font-weight: 400; 
+  letter-spacing: 0.15px;
+  margin-left: 15px;
+  text-decoration: underline;
+}
+
+@media(max-width: 1199px) {
+  .App .searchResult {
+    width: 720px;
+  }
+
+  .App .searchResult .price {
+    margin-left: 30px;
+  }
+
+  .App .resultImg {
+    margin-left: 15px;
+  }
+
+  .App .searchResult .catName span  {
+    margin-left: 15px;
+  }
+
+}
+
